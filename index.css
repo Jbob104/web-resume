@@ -1,11 +1,33 @@
+/* Class to contain web page */
 .container
 {
     width: 80%;
     margin: auto;
+    text-align: left;
+}
+
+/* Class for header element */
+header
+{
     text-align: center;
 }
 
-.list
+/* Class for contact info section */
+.contactInfo
 {
-    text-align: left;
+    text-align: center;
+    border-top-style: double;
+    border-bottom-style: double;
+}
+
+/* Class for heading level 2 */
+h2
+{
+    border-bottom-style: groove;
+}
+
+/* Class for heading level 3 */
+h3
+{
+    text-decoration-line: underline;
 }
